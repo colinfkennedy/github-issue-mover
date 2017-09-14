@@ -2,8 +2,85 @@
 <module type="RUBY_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+    </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.3.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="addressable (vbundled(2.5.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/data" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/tasks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/data" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/addressable-2.5.1/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday (vbundled(0.13.0)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/faraday-0.13.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/faraday-0.13.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multipart-post (vbundled(2.0.0)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/multipart-post-2.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/multipart-post-2.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="octokit (vbundled(4.7.0)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/octokit-4.7.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/octokit-4.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="public_suffix (vbundled(2.0.5)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/public_suffix-2.0.5/data" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/public_suffix-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/public_suffix-2.0.5/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sawyer (vbundled(0.8.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/sawyer-0.8.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/sawyer-0.8.1/script" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/sawyer-0.8.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/ruby/2.3.0/gems/sawyer-0.8.1/script" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.15.4, RVM: ruby-2.3.3) [gem]" level="application" />
   </component>
 </module>

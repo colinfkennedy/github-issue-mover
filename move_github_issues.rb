@@ -1,6 +1,7 @@
 # Load the bundled environment
 require 'rubygems'
 require 'bundler/setup'
+require 'yaml'
 
 # Require gems specified in the Gemfile
 require 'octokit'
@@ -19,13 +20,16 @@ client.auto_paginate = true
 # puts issue.title
 
 
-localization_issues = client.list_issues(INTERCOM_REPO, state: "open", labels: "Localization,team-messenger")
+localization_issues = client.list_issues(INTERCOM_REPO, state: "open", labels: "Localization")
 
 count = 0
 
 localization_issues.each do |issue|
-  puts issue.title
+  puts "------------- ISSUE --------------"
+  puts YAML.dump(issue)
   count += 1
+  puts "----------------------------------"
+  puts
 end
 
 puts "Total Open Localization Issues: #{count}"
